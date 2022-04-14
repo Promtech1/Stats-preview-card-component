@@ -1,1 +1,12 @@
 @import "global";
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .box{
+        width: 80%;
+        display: flex;
+    }
+}
