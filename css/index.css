@@ -40,4 +40,5 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #1C1938;
 }
