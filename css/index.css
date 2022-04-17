@@ -41,3 +41,7 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.container .box .left-box {
+  background-color: #1C1938;
+}
