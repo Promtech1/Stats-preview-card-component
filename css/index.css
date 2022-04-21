@@ -63,3 +63,13 @@ body {
       align-content: center;
   margin: 0 auto;
 }
+
+.container .box .left-box .left-up h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+.container .box .left-box .left-up h1 span {
+  color: #A75FD6;
+}
