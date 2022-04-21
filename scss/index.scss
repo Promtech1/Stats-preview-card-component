@@ -21,6 +21,7 @@
             margin: 0 auto;
 
             .left-up{
+                margin-bottom: 5em;
                 h1{
                     font-family: 'Inter', sans-serif;
                     font-weight: 700;
@@ -29,6 +30,17 @@
                         color: #A75FD6;
                     }
                 }
+                p{
+                    width: 80%;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                }
+            }
+
+            .left-down{
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
             }
         }
     }

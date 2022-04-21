@@ -64,6 +64,10 @@ body {
   margin: 0 auto;
 }
 
+.container .box .left-box .left-up {
+  margin-bottom: 5em;
+}
+
 .container .box .left-box .left-up h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -72,4 +76,20 @@ body {
 
 .container .box .left-box .left-up h1 span {
   color: #A75FD6;
+}
+
+.container .box .left-box .left-up p {
+  width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.container .box .left-box .left-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
 }
