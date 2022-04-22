@@ -80,7 +80,7 @@ body {
 
 .container .box .left-box .left-up p {
   width: 80%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
 }
 
@@ -92,4 +92,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 90%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+}
+
+.container .box .left-box .left-down p {
+  font-weight: lighter;
+  font-size: 15px;
 }
