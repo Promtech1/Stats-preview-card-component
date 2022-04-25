@@ -43,13 +43,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #1C1938;
+  background-color: white;
   border-radius: 1em;
 }
 
 .container .box .left-box {
   background-color: #1C1938;
-  width: 40%;
+  padding: 0 1em;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,6 +71,9 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   margin-bottom: .5em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .container .box .left-box .left-up h1 span {
