@@ -40,34 +40,31 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: white;
   border-radius: 1em;
 }
 
 .container .box .left-box {
   background-color: #1C1938;
+  border-radius: 1em 0 0 1em;
   padding: 0 1em;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 3em;
 }
 
-.container .box .left-box .left-up {
-  margin-bottom: 5em;
+.container .box .left-box .left-box-cen {
+  width: 90%;
 }
 
-.container .box .left-box .left-up h1 {
+.container .box .left-box .left-box-cen .left-up h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   margin-bottom: .5em;
@@ -76,38 +73,47 @@ body {
   width: max-content;
 }
 
-.container .box .left-box .left-up h1 span {
+.container .box .left-box .left-box-cen .left-up h1 span {
   color: #A75FD6;
 }
 
-.container .box .left-box .left-up p {
-  width: 80%;
+.container .box .left-box .left-box-cen .left-up p {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
 }
 
-.container .box .left-box .left-down {
+.container .box .left-box .left-box-cen .left-down {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 90%;
+  margin-top: 5em;
+  width: 68%;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Inter', sans-serif;
+  font-size: 15px;
 }
 
-.container .box .left-box .left-down p {
+.container .box .left-box .left-box-cen .left-down p {
   font-weight: lighter;
   font-size: 15px;
+}
+
+.container .box .left-box .left-box-cen .left-down .flex1 {
+  margin-right: 1.2em;
 }
 
 .container .box .right-box {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
+  width: 50%;
 }
 
 .container .box .right-box img {
