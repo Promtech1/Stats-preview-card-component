@@ -5,12 +5,12 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 6em 0;
     .box{
-        width: 80%;
+        width: fit-content;
         display: flex;
         border-radius: 1em;
-        
-        
+        width: 90%;
 
         .left-box{
             background-color: #1C1938;
@@ -73,6 +73,11 @@
                 height: 100%;
                 border-radius:0 .5em .5em 0;
             }
+
+            img:nth-child(2){
+                display: none;
+            }
         }
     }
 }
+@import"media";

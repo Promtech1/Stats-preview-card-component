@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1081px){
+    .container{
+        .box{
+            flex-direction: column-reverse;
+            width: 500px;
+
+            .left-box{
+                width: 500px;
+                height: 40%;
+                border-radius: 0 0 .5em .5em;
+                
+            }
+            .right-box{
+                width: 500px;
+
+                img{
+                    z-index: 22;
+                }
+
+                img:nth-child(1){
+                    display: none;
+                }
+
+                img:nth-child(2){
+                    border-radius: .5em .5em 0 0;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
