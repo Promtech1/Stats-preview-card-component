@@ -13,17 +13,14 @@
             .right-box{
                 width: 500px;
 
-                img{
-                    z-index: 22;
-                }
 
                 img:nth-child(1){
-                    display: none;
+                    border-radius: .5em .5em 0 0;
+                    display: flex;
                 }
 
                 img:nth-child(2){
-                    border-radius: .5em .5em 0 0;
-                    display: flex;
+                    display: none;
                 }
             }
         }
