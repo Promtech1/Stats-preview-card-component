@@ -11,6 +11,19 @@
     height: 40%;
     border-radius: 0 0 .5em .5em;
   }
+  .container .box .left-box .left-box-cen .left-up {
+    text-align: center;
+    margin-bottom: 5em;
+  }
+  .container .box .left-box .left-box-cen .left-up h1 {
+    width: 100%;
+  }
+  .container .box .left-box .left-box-cen .left-up p {
+    width: 100%;
+  }
+  .container .box .left-box .left-box-cen .left-down {
+    margin: 0 auto;
+  }
   .container .box .right-box {
     width: 500px;
   }
