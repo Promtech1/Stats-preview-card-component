@@ -32,6 +32,7 @@ body {
           align-items: center;
   height: 100vh;
   margin: 6em 0;
+  width: 50%;
 }
 
 .container .box {
@@ -131,7 +132,7 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    width: 500px;
+    width: 400px;
   }
   .container .box .left-box {
     width: 500px;
@@ -153,6 +154,7 @@ body {
   }
   .container .box .right-box {
     width: 500px;
+    height: 300px;
   }
   .container .box .right-box img:nth-child(1) {
     border-radius: .5em .5em 0 0;

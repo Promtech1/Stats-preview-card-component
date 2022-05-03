@@ -2,7 +2,7 @@
     .container{
         .box{
             flex-direction: column-reverse;
-            width: 500px;
+            width: 400px;
 
             .left-box{
                 width: 500px;
@@ -29,7 +29,7 @@
             }
             .right-box{
                 width: 500px;
-
+                height: 300px;
 
                 img:nth-child(1){
                     border-radius: .5em .5em 0 0;
