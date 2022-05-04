@@ -18,5 +18,10 @@ body {
   margin: 0;
   background-color: #0A0C1B;
   color: white;
-  padding: 22em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

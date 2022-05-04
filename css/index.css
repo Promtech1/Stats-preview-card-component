@@ -18,6 +18,12 @@ body {
   margin: 0;
   background-color: #0A0C1B;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container {
@@ -32,7 +38,6 @@ body {
           align-items: center;
   height: 100vh;
   margin: 6em 0;
-  width: 50%;
 }
 
 .container .box {
@@ -127,6 +132,9 @@ body {
 }
 
 @media only screen and (max-width: 1081px) {
+  .container {
+    width: 60%;
+  }
   .container .box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -135,7 +143,7 @@ body {
     width: 400px;
   }
   .container .box .left-box {
-    width: 500px;
+    width: 100%;
     height: 40%;
     border-radius: 0 0 .5em .5em;
   }
@@ -153,7 +161,7 @@ body {
     margin: 0 auto;
   }
   .container .box .right-box {
-    width: 500px;
+    width: 100%;
     height: 300px;
   }
   .container .box .right-box img:nth-child(1) {

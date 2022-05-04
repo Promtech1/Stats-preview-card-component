@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1081px) {
+  .container {
+    width: 60%;
+  }
   .container .box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -7,7 +10,7 @@
     width: 400px;
   }
   .container .box .left-box {
-    width: 500px;
+    width: 100%;
     height: 40%;
     border-radius: 0 0 .5em .5em;
   }
@@ -25,7 +28,7 @@
     margin: 0 auto;
   }
   .container .box .right-box {
-    width: 500px;
+    width: 100%;
     height: 300px;
   }
   .container .box .right-box img:nth-child(1) {
