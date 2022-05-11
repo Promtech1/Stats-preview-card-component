@@ -23,6 +23,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 3em 0;
 }
 
@@ -30,9 +33,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 90%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -46,7 +47,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   border-radius: 1em;
-  width: 90%;
+  width: 100%;
 }
 
 .container .box .left-box {
