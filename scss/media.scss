@@ -75,3 +75,9 @@
         width: 400px;
     }
 }
+
+@media only screen and (max-width: 446px){
+    .container{
+        width: 80%;
+    }
+}
