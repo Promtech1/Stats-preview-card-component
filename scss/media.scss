@@ -79,5 +79,15 @@
 @media only screen and (max-width: 446px){
     .container{
         width: 80%;
+
+        .box{
+            .right-box{
+                height: 100%;
+                img{
+                    width: 100%;
+                    
+                }
+            }
+        }
     }
 }

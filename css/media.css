@@ -75,4 +75,7 @@
   .container {
     width: 80%;
   }
+  .container .box .right-box img {
+    width: 100%;
+  }
 }
