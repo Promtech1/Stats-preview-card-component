@@ -19,7 +19,7 @@
   }
   .container .box .left-box .left-box-cen .left-up {
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
   }
   .container .box .left-box .left-box-cen .left-up h1 {
     width: 100%;
@@ -74,6 +74,9 @@
 @media only screen and (max-width: 446px) {
   .container {
     width: 80%;
+  }
+  .container .box .right-box {
+    height: 100%;
   }
   .container .box .right-box img {
     width: 100%;
