@@ -1,5 +1,6 @@
 @media only screen and (max-width: 1081px){
-    .container{
+    body{
+        .container{
         width: 50%;
         
         .box{
@@ -49,6 +50,8 @@
             }
         }
     }
+    }
+    
 }
 
 
@@ -56,8 +59,7 @@
     .container{
         .right-box{
             width: 100%;
-            
-
+            height: 100%;
             img:nth-child(1){
                 border-radius: .5em .5em 0 0;
                 display: flex;
@@ -78,14 +80,13 @@
 
 @media only screen and (max-width: 446px){
     .container{
-        width: 80%;
+        width: 90% !important;
 
         .box{
             .right-box{
-                height: 100%;
+                height: 100% !important;
                 img{
                     width: 100%;
-                    
                 }
             }
         }

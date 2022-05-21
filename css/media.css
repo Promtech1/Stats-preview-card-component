@@ -1,33 +1,33 @@
 @media only screen and (max-width: 1081px) {
-  .container {
+  body .container {
     width: 50%;
   }
-  .container .box {
+  body .container .box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     width: 100%;
   }
-  .container .box .left-box {
+  body .container .box .left-box {
     width: 100%;
     height: 40%;
     border-radius: 0 0 .5em .5em;
   }
-  .container .box .left-box .left-box-cen {
+  body .container .box .left-box .left-box-cen {
     padding: 2em 0;
   }
-  .container .box .left-box .left-box-cen .left-up {
+  body .container .box .left-box .left-box-cen .left-up {
     text-align: center;
     margin-bottom: 2em;
   }
-  .container .box .left-box .left-box-cen .left-up h1 {
+  body .container .box .left-box .left-box-cen .left-up h1 {
     width: 100%;
   }
-  .container .box .left-box .left-box-cen .left-up p {
+  body .container .box .left-box .left-box-cen .left-up p {
     width: 100%;
   }
-  .container .box .left-box .left-box-cen .left-down {
+  body .container .box .left-box .left-box-cen .left-down {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -35,17 +35,17 @@
             flex-direction: column;
     gap: 2em;
   }
-  .container .box .right-box {
+  body .container .box .right-box {
     width: 100%;
     height: 300px;
   }
-  .container .box .right-box img:nth-child(3) {
+  body .container .box .right-box img:nth-child(3) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     border-radius: .5em .5em 0 0;
   }
-  .container .box .right-box img:nth-child(2) {
+  body .container .box .right-box img:nth-child(2) {
     display: none;
   }
 }
@@ -53,6 +53,7 @@
 @media only screen and (max-width: 404px) {
   .container .right-box {
     width: 100%;
+    height: 100%;
   }
   .container .right-box img:nth-child(1) {
     border-radius: .5em .5em 0 0;
@@ -73,10 +74,10 @@
 
 @media only screen and (max-width: 446px) {
   .container {
-    width: 80%;
+    width: 90% !important;
   }
   .container .box .right-box {
-    height: 100%;
+    height: 100% !important;
   }
   .container .box .right-box img {
     width: 100%;
