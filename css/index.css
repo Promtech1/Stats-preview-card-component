@@ -117,6 +117,7 @@ body {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
+  position: relative;
   width: 50%;
 }
 

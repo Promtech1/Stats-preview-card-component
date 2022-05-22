@@ -63,6 +63,7 @@
 
         .right-box{
             align-self: stretch;
+            position: relative;
             width: 50%;
             img{
                 width: 100%;
@@ -73,6 +74,8 @@
             img:nth-child(3){
                 display: none;
             }
+
+            
         }
        
     }
